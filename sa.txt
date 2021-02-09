@@ -1,0 +1,13 @@
+Days are gone when IT organizations are looking for core data science profile which includes doing research and complete the POC. There is a lot of hype around data science and in very near future this profile will become obsolete. People in the data science profile know it.  It’s fancy for other IT profiles because a lot of material is bombarded by training institutes and start ups. Current demand is short term( Organizations are in exploration phase, what to do with data and delivering POCs ). Most of the organization are now looking for ML-Engineer profile which is the combination of 3 profiles- data engineer, data science and someone who can deploy in production( in cloud most of the time).
+
+
+The sooner the better. So-called data scientist should move into data engineering and embrace the cloud. Here I have given small introduction on how to start working on Azure-Databricks so that people like me can become a better hiring material.
+
+
+
+Although this code is written in python but now we have run first ML program on databricks. One should start replacing python commands with PySpark commands make it a habit over time.
+
+In production, this notebook will read run time data by scheduling a job( how to schedule a job in data bricks) and from notebook one can save predicted values in any database which can further be read by visualization tool/ another application.
+
+
+Data scientist should come out of pure research, statistics, R/Python profile to be stay relevant in IT industry. Remember golden words by Charles Darwin-
