@@ -1,5 +1,9 @@
 # Streamlit_huggingface_app
 
+https://share.streamlit.io/arpitsisodia288/streamlit_huggingface_app/main/model_server.py ( app is deployed here), click and enjoy
+
+
+
 Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps - so let’s get started!')
 
 
