@@ -17,7 +17,7 @@ st.write('Streamlit is an open-source Python library that makes it easy to creat
 
 
 st.header('Task 1- please provide necessery inputs for question answering')
-context = r"""GAIA team is in India. LB is a project.Lambda team is most efficient team in GAIA. Ranjani is star of the team
+context = r"""GAIA team is in India. LB is a project.Lambda team is most efficient team in GAIA. Arpit is star of the team.
 """
 question_context = st.text_area('Please type context of question', context)
 question_user=st.text_area( 'please provide quesation', "Where can I find Ranjani?")
@@ -30,8 +30,9 @@ st.header('Task 3- please provide necessery inputs for sentiment- analysis')
 user_text_input_sentiment = st.text_input('Please type context', 'Team Lambda is best R&D team in India.')
 
 st.header('Task 4- please provide necessery inputs for text summarization')
-filename = st.text_input('Enter a file path:', '/Users/apple/Documents/Learning/sa.txt')
-aa= open(filename).read()
+# filename = st.text_input('Enter a file path:', '/Users/apple/Documents/Learning/sa.txt')
+# aa= open(filename).read()
+aa= context
 
 ## running the main code-
 
@@ -56,3 +57,4 @@ if st.button('Text summarization'):
     summarizer = pipeline("summarization")
     sum_op= (summarizer(aa, max_length=50, min_length=30, do_sample=False))
     st.write(sum_op)
+    st.write('this feature is still in progress )
