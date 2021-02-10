@@ -1,9 +1,11 @@
 # Streamlit_huggingface_app
 
-<h2>Please select any of the NLP tasks</h2>
-<br>
+Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps - so let’s get started!')
+
+
+<h2>Using this app you can do any of these NLP tasks</h2>
 Question-Answering, <br>
-Text generation, <br
+Text generation, <br>
 Sentiment-Analysis, <br>
 Text summarization <br>
 
