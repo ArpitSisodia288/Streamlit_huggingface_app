@@ -17,10 +17,10 @@ st.write('Streamlit is an open-source Python library that makes it easy to creat
 
 
 st.header('Task 1- please provide necessery inputs for question answering')
-context = r"""GAIA team is in India. LB is a project.Lambda team is most efficient team in GAIA. Ranjani is star of the team
+context = r"""The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It has a muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane. With a typical head-to-body length of 184–208 cm (72–82 in) they are larger than females at 160–184 cm (63–72 in). It is a social species, forming groups called prides. A lion pride consists of a few adult males, related females and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, the species typically does not.
 """
 question_context = st.text_area('Please type context of question', context)
-question_user=st.text_area( 'please provide quesation', "Where can I find Ranjani?")
+question_user=st.text_area( 'please provide quesation', "Where can I find lion?")
 
 st.header('Task 2- please provide necessery inputs for text_generation')
 user_text_input = st.text_input('sentence to start for text generation', 'Google platform')
