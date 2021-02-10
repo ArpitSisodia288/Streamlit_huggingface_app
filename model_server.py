@@ -27,7 +27,7 @@ user_text_input = st.text_input('sentence to start for text generation', 'Google
 number = st.number_input('Insert maximum length of paragraph', value= 30)
 
 st.header('Task 3- please provide necessery inputs for sentiment- analysis')
-user_text_input_sentiment = st.text_input('Please type context', 'Team Lambda is best R&D team in India.')
+user_text_input_sentiment = st.text_input('Please type context', 'India ia a vibrabnt country.')
 
 st.header('Task 4- please provide necessery inputs for text summarization')
 filename = st.text_input('Enter a file path:', '/Users/apple/Documents/Learning/sa.txt')
