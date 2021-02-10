@@ -57,4 +57,4 @@ if st.button('Text summarization'):
     summarizer = pipeline("summarization")
     sum_op= (summarizer(aa, max_length=50, min_length=30, do_sample=False))
     st.write(sum_op)
-    st.write('this feature is still in progress )
+    st.write('this feature is still in progress' )
